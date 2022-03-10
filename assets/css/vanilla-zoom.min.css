@@ -1,0 +1,44 @@
+.vanilla-zoom {
+  width: 100%;
+}
+
+.vanilla-zoom .sidebar {
+  /*flex-basis: 30%;*/
+  width: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+}
+
+.vanilla-zoom .sidebar img.small-preview {
+  width: 60px;
+   margin-right: 5px;
+  cursor: pointer;
+  opacity: .5;
+  object-fit: cover;
+}
+
+.vanilla-zoom .sidebar img.small-preview.active, .vanilla-zoom .sidebar img.small-preview:hover {
+  opacity: 1;
+}
+
+.vanilla-zoom .sidebar img.small-preview:last-child {
+  margin-right: 0;
+  height: 400px;
+}
+
+.carousel-inner img{
+  height: 400px;
+  object-fit: cover;
+}
+
+
+.vanilla-zoom .zoomed-image {
+  width: 100%;
+  height: 400px;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  margin-bottom: 5px;
+}
+
